@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./media/image.png);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    padding: 0.5vh 0.5vw;
+    background-color: rgb(26, 7, 29);
+    color: white;
+    position: sticky;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden;
+
+}
+
+.header_block{
+    display: flex;
+    width: 100%;
+}
+
+nav .auth-buttons a.bal {
+    float: left;
+    color: white;
+    text-decoration: none;
+    margin:  1vh 1vw;
+    padding: 1.5vh 1.5vw;
+    border-radius: 5px;
+    background-color: #3c0853;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav .auth-buttons a.jobb {
+    float: right;
+    color: white;
+    text-decoration: none;
+    margin:  1vh 1vw;
+    padding: 1.5vh 1.5vw;
+    border-radius: 5px;
+    background-color: #3c0853;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav .auth-buttons a:hover {
+    background-color: #6a0f94;
+    color: white;
+}
+footer {
+    padding: 20px;
+    background-color: rgba(31, 2, 36, 0.966);
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: #1e90ff;
+    text-decoration: none;
+}

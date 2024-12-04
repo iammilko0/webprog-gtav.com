@@ -1,0 +1,199 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./media/image.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.header_block{
+    display: flex;
+    width: 100%;
+}
+
+.header_block .welcome-message {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 3vw;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: 'Pricedown BL', Arial, sans-serif;
+    text-shadow: 
+        -1px -1px 0 rgb(107, 5, 121),
+        1px -1px 0 rgb(107, 5, 121),
+        -1px 1px 0 rgb(107, 5, 121),
+        1px 1px 0 rgb(107, 5, 121);
+        -webkit-text-stroke: 0.6px rgb(107, 5, 121);
+}
+
+@font-face {
+    font-family: 'Pricedown BL';
+    src: url('./fonts/pricedown-bl.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+nav {
+    padding: 0.5vh 0.5vw;
+    background-color: rgb(26, 7, 29);
+    color: white;
+    position: sticky;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+nav .auth-buttons a.bal {
+    float: left;
+    color: white;
+    text-decoration: none;
+    margin:  1vh 1vw;
+    padding: 1.5vh 1.5vw;
+    border-radius: 5px;
+    background-color: #3c0853;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav .auth-buttons a.jobb {
+    float: right;
+    color: white;
+    text-decoration: none;
+    margin:  1vh 1vw;
+    padding: 1.5vh 1.5vw;
+    border-radius: 5px;
+    background-color: #3c0853;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav .auth-buttons a:hover {
+    background-color: #6a0f94;
+    color: white;
+}
+
+.main-content {
+    background-image: url(./media/image.png);
+    background-position: center;
+    background-size: cover;
+    padding: 50px 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.content .text-side {
+    width: 50%;
+    color: white;
+    background-color: rgba(153, 12, 146, 0.5);
+    text-shadow: 2px 2px black;
+}
+
+.content .image-side img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.video {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+footer {
+    padding: 20px;
+    background-color: rgba(31, 2, 36, 0.966);
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.auth-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./media/image.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.auth-page h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 2px 2px black;
+}
+
+.auth-page form {
+    background-color: rgba(231, 32, 221, 0.74);
+    padding: 3vh;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.auth-page form input[type="text"],
+.auth-page form input[type="password"],
+.auth-page form input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.auth-page form input[type="submit"] {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #4f0a58;
+    border-radius: 5px;
+    background-color: #9e228e;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+}
+
+.auth-page form button:hover {
+    background-color: #e545fa;
+}
+
+
+.back-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #4f0a58;
+    border-radius: 5px;
+    background-color: #9e228e;
+}
+
+.back-button a:hover {
+    background-color: #e545fa;
+    color: white;
+}
